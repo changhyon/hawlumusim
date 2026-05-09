@@ -10,3 +10,6 @@
 3. draw the output txt file with sim_rate.py
 or analyze the root output file
 
+v4 for the latest one. 
+tuned rock + 2.4g/cm3
+

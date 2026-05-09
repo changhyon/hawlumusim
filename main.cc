@@ -213,7 +213,7 @@ int main() {
         ratio = double(Ncoin_underground) / double(Ncoin_surface);
       }
       
-      double rateHz = 35.0 * ratio;
+      double rateHz = 36.5 * ratio;
       
       foutRate
         << s_m << " "

@@ -5,8 +5,8 @@ d = np.loadtxt("rate_profile.txt")
 
 s     = d[:,0]
 mwe   = d[:,1]
-ratio = d[:,2]
-rate  = d[:,3]
+ratio = d[:,3]
+rate  = d[:,4]
 
 plt.figure(figsize=(12,8))
 
