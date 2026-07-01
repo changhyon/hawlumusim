@@ -33,7 +33,9 @@ int main() {
     std::vector<double> rock_m;
     std::vector<double> water_m;
     
-    std::ifstream prof("tunnel_profile.txt");
+    //    std::ifstream prof("tunnel_profile.txt");
+    //    std::ifstream prof("tunnel_profile_corr.txt"); // corrected geometry
+    std::ifstream prof("tunnel_profile_crown_sediment.txt"); // crown + sediment
 
     if(!prof.is_open()) {
       std::cerr << "ERROR: Cannot open tunnel_profile.txt" << std::endl;
