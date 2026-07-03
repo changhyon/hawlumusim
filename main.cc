@@ -127,7 +127,8 @@ int main() {
     // detector geometry
     double Lx  = 1.0;   // m, along tunnel
     double Ly  = 0.5;   // m, across tunnel
-    double gap = 0.5;   // m, vertical separation
+    //    double gap = 0.5;   // m, vertical separation
+    double gap = 0.42;   // m, vertical separation updated 7/3 
 
     //    int Nevents = 100000;
     int Nevents = 5000;
